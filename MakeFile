@@ -1,0 +1,9 @@
+CC=gcc
+SRCLIB=$(wildcard src/*.c)
+SRC=$(wildcard *.c)
+EXEC=my_application.exe
+
+all: MAIN
+
+MAIN:
+  $(CC) $(SRCLIB) $(SRC) -o $(EXEC)
