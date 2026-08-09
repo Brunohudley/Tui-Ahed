@@ -1,5 +1,5 @@
-#include "tui_buffer.h"
-#include "tui_utils.h"
+#include "../include/tui_buffer.h"
+#include "../include/tui_utils.h"
 
 #include <stdlib.h>
 #include <wchar.h>
